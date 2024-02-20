@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-wtsa
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0068-tenant/tkrw-pr712-0075-0068-app/devfile-sample-wtsa@sha256:b8a10f3b8dc0413af03916949c563daa8a49cc0c66eb3c9e62a5ac6aecf1068f
         name: my-nodejs
         ports:
         - containerPort: 3001
